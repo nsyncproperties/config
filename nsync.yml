@@ -11,16 +11,6 @@ spring:
             enabled: false
     thymeleaf:
         mode: XHTML
-    social:
-        # see https://developers.google.com/+/web/signin/server-side-flow#step_1_create_a_client_id_and_client_secret
-        google:
-            clientId: '{cipher}d4faf117d4065509161577030563ca0d3cf2cc49ffeccb82ee6911a6a1eef09564132ac7dcaed885b01cc4308263816892f8e092534c805482f5efdc09c6fcc399dcfc0e8c6dfdc150d04cb78170afa20c2bc13eff51453ec0a4839e91ca2ed3'
-            clientSecret: '{cipher}df03e8f5f13fa428c3a7fa201e5a2193ad2e070c0c6fd894e8cf4a130a4dc3a515feacd2d6949a9f4d2a8f2a10a9d1fa'
-        outlook:
-            clientId: '{cipher}11e581859bc05ab6423423ae21e2f495ac7a0186135ce4d28f5420be75d8836ffc251aca685e80962103da9b7401790e098b20b08e37bdc8eead3f3e83d7f1b0'
-            clientSecret: '{cipher}442142428e920d4faf77321a6aa23bda0075ae9f034c04582be302b69ee7187a12116ce6a558d306345ddc1d21392ee1'
-
-
 security:
     basic:
         enabled: false
